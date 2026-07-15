@@ -3,7 +3,7 @@
 # Look at examples/CMakeLists.txt to see how to use it in a project.
 
 # The sdl3webgpu target
-add_library(sdl3webgpu STATIC sdl3webgpu.c)
+add_library(sdl3webgpu STATIC sdl3webgpu.cpp)
 target_include_directories(sdl3webgpu PUBLIC .)
 target_link_libraries(sdl3webgpu PUBLIC SDL3::SDL3 webgpu)
 
